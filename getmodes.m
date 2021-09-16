@@ -1,5 +1,5 @@
-function varargout=getfreqs(frange,mtype,dset,units)
-% [freqs,mlabel,tdata]=getfreqs(frange,mtype,dset,units)
+function varargout=getmodes(frange,mtype,dset,units)
+% [freqs,mlabel,tdata]=getmodes(frange,mtype,dset,units)
 %
 % Reads in file 'masterswidmer' and extracts mode frequencies for specified range and types.
 % NOTE: Assumes you have the data file, 'masterwidmer'. 
