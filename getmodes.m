@@ -2,7 +2,7 @@ function varargout=getmodes(frange,mtype,dset,units)
 % [freqs,mlabel,tdata]=getmodes(frange,mtype,dset,units)
 %
 % Reads in file 'masterswidmer' and extracts mode frequencies for specified range and types.
-% NOTE: Assumes you have the data file, 'masterwidmer'. 
+% NOTE: Assumes you have the data file, 'masterwidmer', in the same directory. 
 %
 % Input:
 %
@@ -22,14 +22,8 @@ function varargout=getmodes(frange,mtype,dset,units)
 % Note:
 %
 % Data table from Free Oscillations: Frequencies and Attenuations by Masters and Widmer.
-% Requires repository slepian_alpha. See defval.
 %
-% Last modified by pdabney@princeton.edu, 7/30/21
-
-% Default values
-defval('dset',1)
-defval('mtype','spheriodal')
-defval('units','hertz')
+% Last modified by pdabney@princeton.edu, 9/16/21
 
 % Unit conversions
 % conversion to hertz
